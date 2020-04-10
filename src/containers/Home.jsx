@@ -4,6 +4,7 @@ import Carousel from '../components/Carousel';
 const Home = () => (
     <React.Fragment>
        <Carousel></Carousel>
+       
     </React.Fragment>
    
 );
