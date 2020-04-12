@@ -1,8 +1,9 @@
-import React from 'react';
-
+import React    from 'react';
+import Carousel from '../components/Carousel';
 const Blog = () => (
     <React.Fragment>
-    <h1>Hola esto es el blog</h1>
+        <Carousel/>
+        <h1>Hola esto es el blog</h1>
 </React.Fragment>
 );
 

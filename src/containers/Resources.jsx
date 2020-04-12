@@ -1,9 +1,10 @@
-import React from 'react';
-
+import React    from 'react';
+import Carousel from '../components/Carousel';
 
 const Resources = () => (
     <React.Fragment>
-    <h1>Hola esto es el Resources</h1>
+        <Carousel/>
+        <h1>Hola esto es el Resources</h1>
 </React.Fragment>
 );
 

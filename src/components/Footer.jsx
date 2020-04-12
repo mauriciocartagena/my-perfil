@@ -6,43 +6,43 @@ const Footer = ()=> (
     <React.Fragment>
  <footer className="footer">
 
-      <div class="row">
+      <div className="row">
 
-         <div class="twelve columns">
+         <div className="twelve columns">
 
-            <ul class="social-links">
+            <ul className="social-links">
                <li>
                   <a href="https://www.facebook.com/Mauricio-Cartagena-102458494729519" target="facebook" rel="noopener">
-                     <i class="fa fa-facebook">
+                     <i className="fa fa-facebook">
                      </i>
                   </a>
                </li>
                <li>
                   <a href="https://twitter.com/Mc9541991" target="twitter" rel="noopener">
-                     <i class="fa fa-twitter"></i>
+                     <i className="fa fa-twitter"></i>
                   </a>
                </li>
                <li>
                   <a href="mailto:mcartagenacoria@gmail.com" target="email" rel="noopener">
-                     <i class="fa fa-envelope"></i>
+                     <i className="fa fa-envelope"></i>
                   </a>
                </li>
                <li>
                   <a href="https://www.linkedin.com/in/mauricio-cartagena-b59454187/"  target="linkedin" rel="noopener">
-                     <i class="fa fa-linkedin"></i>
+                     <i className="fa fa-linkedin"></i>
                   </a>
                </li>
-             <li><a href="https://www.instagram.com/mcartagenacoria" target="instagram" rel="noopener"><i class="fa fa-instagram"></i></a></li>
-               {/* <li><a href="#" target="_blank"><i class="fa fa-dribbble"></i></a></li>
-               <li><a href="#" target="_blank"><i class="fa fa-skype"></i></a></li> */}
+             <li><a href="https://www.instagram.com/mcartagenacoria" target="instagram" rel="noopener"><i className="fa fa-instagram"></i></a></li>
+               {/* <li><a href="#" target="_blank"><i className="fa fa-dribbble"></i></a></li>
+               <li><a href="#" target="_blank"><i className="fa fa-skype"></i></a></li> */}
                 <li>
                   <a href="https://github.com/mauriciocartagena"  target="github" rel="noopener">
-                     <i class="fa fa-github"></i>
+                     <i className="fa fa-github"></i>
                   </a>
                </li>
             </ul>
 
-            <ul class="copyright">
+            <ul className="copyright">
                <li>&copy; Copyright 2020 Mauricio Cartagena</li>
                <li> Developer by : Mauricio Cartagena Coria </li>   
             </ul>
@@ -51,8 +51,8 @@ const Footer = ()=> (
 
          <div id="go-top">
             {/* <Link to="/">
-               <a class="smoothscroll" title="Back to Top" >
-                  <i class="icon-up-open"> 
+               <a className="smoothscroll" title="Back to Top" >
+                  <i className="icon-up-open"> 
                   </i>
                </a>
             </Link> */}

@@ -24,11 +24,9 @@ const Biography = () =>(
                     
                     I love music for that reason as I am developing I am listening to music.
 
-    <br/>
-                    The only way to do a great job is love what you do
-
-                    
+                    <br/>
                     </p>
+                    
                     <div className="row">
                         <div className="columns contact-details">
                             <h2>Contact </h2>
@@ -43,7 +41,13 @@ const Biography = () =>(
                         </div>
                        
                     </div>
-                
+                    <hr/>
+                    <h2>
+                        Steve Jobs
+                    </h2>
+                    <p className="lead font-weight-normal">
+                        The only way to do a great job is love what you do
+                    </p>
                 </div>
             </div>
         </section>

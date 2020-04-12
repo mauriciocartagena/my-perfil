@@ -1,8 +1,10 @@
-import React from 'react';
+import React    from 'react';
+import Carousel from '../components/Carousel';
 
 const Contact = () => (
     <React.Fragment>
-    <h1>Hola esto es el Contact</h1>
+        <Carousel/>
+        <h1>Hola esto es el Contact</h1>
 </React.Fragment>
 );
 
