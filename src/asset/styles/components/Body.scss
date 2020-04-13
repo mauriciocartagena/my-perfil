@@ -1,9 +1,5 @@
 /*
 =====================================================================
-*   Ceevee v1.0 Layout Stylesheet
-*   url: styleshout.com
-*   03-18-2014
-=====================================================================
 
    TOC:
    a. General Styles
@@ -247,15 +243,35 @@ ul#nav li.current a { color: #F06000; }
   	-moz-animation: css 2s ease;
   	-webkit-animation: css 2s ease;
 }
+.php {
+   width: 95%;
+   -moz-animation: php 2s ease;
+   -webkit-animation: php 2s ease;
+}
 .html5 {
-  	width: 80%;
+  	width: 85%;
   	-moz-animation: html5 2s ease;
   	-webkit-animation: html5 2s ease;
 }
 .jquery {
-  	width: 50%;
+  	width: 85%;
   	-moz-animation: jquery 2s ease;
   	-webkit-animation: jquery 2s ease;
+}
+.api-rest {
+   width: 90%;
+   -moz-animation: api-rest 2s ease;
+   -webkit-animation: api-rest 2s ease;
+}
+.mysql {
+   width: 87%;
+   -moz-animation: mysql 2s ease;
+   -webkit-animation: mysql 2s ease;
+}
+.react {
+   width: 75%;
+   -moz-animation: react 2s ease;
+   -webkit-animation: react 2s ease;
 }
 
 @-moz-keyframes photoshop {
