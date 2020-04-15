@@ -6,7 +6,8 @@ import Resume                               from  '../containers/Resume';
 // import Blog                                 from  '../containers/Blog';
 import Contact                              from  '../containers/Contact';
 import Layout                               from  '../components/Layout';
-import NotFound                             from '../containers/NotFound';
+import NotFound                             from  '../containers/NotFound';
+
 const App = () =>(
     <BrowserRouter>
         <Layout>

@@ -1,4 +1,3 @@
-
 import firebase from 'firebase';
 
 const config = {
@@ -12,6 +11,6 @@ const config = {
     measurementId: "G-WNQJDG8QF7"
 };
 
-const firebaseConf = firebase.initializeApp(config);
+const firebaseConf = firebase.initializeApp(config)
 
 export default firebaseConf;

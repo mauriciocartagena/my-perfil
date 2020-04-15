@@ -1,6 +1,6 @@
 import React                    from 'react';
-import {Nav,Navbar}    from 'react-bootstrap';
-import {Link}                     from 'react-router-dom';
+import {Nav,Navbar}             from 'react-bootstrap';
+import {Link}                   from 'react-router-dom';
 import '../asset/styles/components/Products.scss';
 
 const Header = () =>(

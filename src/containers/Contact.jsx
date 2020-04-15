@@ -26,10 +26,10 @@ class Contact extends Component {
     }
   
     resetForm() {
-      this.refs.contactForm.reset();
+      this.myFormRef.reset();
     }
   
-    componentWillMount() {
+    componentDidMount() {
       let formRef = firebaseConf.database().ref('form').orderByKey().limitToLast(6);
       formRef.on('child_added', snapshot => {
         const { name, email, city, phone, message } = snapshot.val();
@@ -69,7 +69,7 @@ class Contact extends Component {
                   <div>
                     <h2 id="title">Contact Form</h2>
                   </div>
-                  <form onSubmit={this.sendMessage.bind(this)} ref='contactForm'>
+                  <form onSubmit={this.sendMessage.bind(this)} ref={(el) => this.myFormRef = el}>
                         <div>
                             <label htmlFor="name">Name <span className="required">*</span></label>
                             <input type="text"   ref={name => this.inputName = name} size="1000" id="name" />
