@@ -9,8 +9,10 @@ const Footer = ()=> (
       <div className="row">
 
          <div className="twelve columns">
-
             <ul className="social-links">
+               <div>
+                  <label htmlFor="Followme" className="followme">Follow me!</label>
+               </div>
                <li>
                   <a href="https://www.facebook.com/Mauricio-Cartagena-102458494729519" target="facebook" rel="noopener">
                      <i className="fa fa-facebook">
