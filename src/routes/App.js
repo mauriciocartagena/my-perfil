@@ -12,7 +12,7 @@ const App = () =>(
     <BrowserRouter>
         <Layout>
             <Switch>
-                <Route exact path="/"           component={Home}/>
+                <Route exact path="/my-perfil"  component={Home}/>
                 <Route exact path="/resources"  component={Resources}/>
                 <Route exact path="/resume"     component={Resume}/>
                 {/* <Route extact path="/blog"      component={Blog}/> */}

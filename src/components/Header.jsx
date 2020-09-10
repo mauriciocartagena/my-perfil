@@ -7,7 +7,7 @@ const Header = () =>(
     <React.Fragment>
       <Navbar className="site-header sticky-top py-1"   collapseOnSelect expand="lg"  variant="dark">
           <Navbar.Brand >
-            <Link to="/">
+            <Link to="/my-perfil">
                 Mauricio-Cartagena
             </Link>
           </Navbar.Brand>
@@ -15,7 +15,7 @@ const Header = () =>(
           <Navbar.Collapse id="responsive-navbar-nav">
               <Nav className="mr-auto container">
 
-                  <Link to="/" >Home</Link>
+                  <Link to="/my-perfil" >Home</Link>
                   <Link to="/resume">Resume</Link>
                   <Link to="/resources">Resources</Link>
                   <Link to="/contact">Contact</Link>
