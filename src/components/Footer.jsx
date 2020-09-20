@@ -34,7 +34,7 @@ const Footer = ()=> (
                      <i className="fa fa-linkedin"></i>
                   </a>
                </li>
-             <li><a href="https://www.instagram.com/mcartagenacoria" target="instagram" rel="noopener"><i className="fa fa-instagram"></i></a></li>
+             <li><a href="https://www.instagram.com/mauricio_cartagena85/" target="instagram" rel="noopener"><i className="fa fa-instagram"></i></a></li>
                {/* <li><a href="#" target="_blank"><i className="fa fa-dribbble"></i></a></li>
                <li><a href="#" target="_blank"><i className="fa fa-skype"></i></a></li> */}
                 <li>
