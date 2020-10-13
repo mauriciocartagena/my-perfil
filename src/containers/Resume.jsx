@@ -116,16 +116,12 @@ const Resume = () => (
                 <div className="bars">
 
                     <ul className="skills">
-                        <li><span className="bar-expand photoshop"></span><em>Photoshop</em></li>
-                        {/* <li><span className="bar-expand illustrator"></span><em>Illustrator</em></li> */}
-                        {/* <li><span className="bar-expand wordpress"></span><em>Wordpress</em></li> */}
-                        <li><span className="bar-expand css"></span><em>CSS</em></li>
-                        <li><span className="bar-expand php"></span><em>PHP</em></li>
-                        <li><span className="bar-expand html5"></span><em>HTML5</em></li>
-                        <li><span className="bar-expand react"></span><em>React </em></li>
-                        <li><span className="bar-expand jquery"></span><em>jQuery</em></li>
-                        <li><span className="bar-expand api-rest"></span><em>Api Rest</em></li>
-                        <li><span className="bar-expand mysql"></span><em>Mysql</em></li>
+                        <li><span className="bar-expand css"></span><em>HTML / CSS</em></li>
+                        <li><span className="bar-expand javascript"></span><em>JAVASCRIPT</em></li>
+                        <li><span className="bar-expand programming"></span><em>PROGRAMMING</em></li>
+                        <li><span className="bar-expand responsability"></span><em>RESPONSIBILITY</em></li>
+                        <li><span className="bar-expand creativity"></span><em>CREATIVITY</em></li>
+                        <li><span className="bar-expand multitask"></span><em>MULTITASK</em></li>
                     </ul>
 
                 </div>

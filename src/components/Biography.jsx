@@ -1,4 +1,5 @@
 import React              from 'react';
+import Typical from 'react-typical'
 import Photo              from '../asset/static/photo.png';
 import '../asset/styles/components/Biography.scss';
 import '../asset/styles/components/Default.scss';
@@ -11,7 +12,10 @@ const Biography = () =>(
                     <img className="profile-pic"  src={Photo} alt="" />
                 </div>
                 <div className="nine columns main-col">
-                    <h2>Hello, a bit about me:</h2>
+                        <Typical
+                            steps={['Hello', 1000, ' Hello, a bit about me', 500]}
+                            wrapper="h2" 
+                        />    
 
                     <p>Developer of web pages, with solid knowledge in technology. <br/>
                     Committed, self-taught, responsible, proactive and analytical passionate about learning new technologies.
