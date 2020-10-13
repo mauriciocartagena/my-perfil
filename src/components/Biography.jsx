@@ -13,7 +13,7 @@ const Biography = () =>(
                 </div>
                 <div className="nine columns main-col">
                         <Typical
-                            steps={['Hello', 1000, ' Hello, a bit about me', 500]}
+                            steps={['Hello', 1000, 'Hello, a bit about me', 500]}
                             wrapper="h2" 
                         />    
 
