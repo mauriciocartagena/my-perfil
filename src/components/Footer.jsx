@@ -20,7 +20,7 @@ const Footer = ()=> (
                   </a>
                </li>
                <li>
-                  <a href="https://twitter.com/Mc9541991" target="twitter" rel="noopener">
+                  <a href="https://twitter.com/Cartagena_24" target="twitter" rel="noopener">
                      <i className="fa fa-twitter"></i>
                   </a>
                </li>
