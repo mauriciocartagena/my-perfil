@@ -7,7 +7,7 @@ const Carousel = () =>(
             <div className="col-md-5 p-lg-5 mx-auto my-5">
                 <h1 className="display-4 font-weight-normal">Mauricio Cartagena</h1>
                 <p className="lead font-weight-normal">Software and Web Developer</p>
-                <Link to= { process.env.PUBLIC_URL + "/contact" }  className="btn btn-outline-secondary">
+                <Link to= "/contact"   className="btn btn-outline-secondary">
                     CONTACT ME
                 </Link>
                 
