@@ -11,6 +11,9 @@ import jsModerno from '../asset/static/js-moderno.png';
 import react from '../asset/static/react.png';
 import restFul from '../asset/static/restful.png';
 import vsCode from '../asset/static/vscode.png';
+import node from '../asset/static/node-cero-experto.png';
+import programacion from '../asset/static/progra-101.png';
+import herramientas from '../asset/static/herramientas.png';
 
 export const Medals = () => {
 
@@ -24,7 +27,10 @@ export const Medals = () => {
         jsModerno,
         react,
         restFul,
-        vsCode
+        vsCode,
+        node,
+        programacion,
+        herramientas
     ];
     return (
         <div className="container-fluid" >   
