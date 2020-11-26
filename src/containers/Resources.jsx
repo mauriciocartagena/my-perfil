@@ -1,10 +1,10 @@
 import React    from 'react';
 import Carousel from '../components/Carousel';
-import Construction from '../components/Construction'
+import { Medals } from '../components/Medals';
 const Resources = () => (
     <React.Fragment>
         <Carousel/>
-       <Construction/>
+        <Medals/>
 </React.Fragment>
 );
 
