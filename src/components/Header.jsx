@@ -18,10 +18,10 @@ const Header = () =>(
           <Navbar.Collapse id="responsive-navbar-nav">
               <Nav className="mr-auto container">
 
-                  <Link to="/my-perfil" >Home</Link>
-                  <Link to="/resume">Resume</Link>
-                  <Link to="/resources">Resources</Link>
-                  <Link to="/contact">Contact</Link>
+                  <Link to= "/my-perfil" >Home</Link>
+                  <Link to= { process.env.PUBLIC_URL + "/resume" } >Resume</Link>
+                  <Link to= { process.env.PUBLIC_URL + "/resources" } >Resources</Link>
+                  <Link to= { process.env.PUBLIC_URL + "/contact" } >Contact</Link>
                   {/* <Link to="/blog">Blog</Link> */}
               </Nav>
           </Navbar.Collapse>

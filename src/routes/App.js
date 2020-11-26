@@ -12,12 +12,12 @@ const App = () =>(
     <BrowserRouter>
         <Layout>
             <Switch>
-                <Route exact path="/my-perfil"  component={Home}/>
-                <Route exact path="/"  component={Home}/>
-                <Route exact path="/resources"  component={Resources}/>
-                <Route exact path="/resume"     component={Resume}/>
+                <Route exact path =  { process.env.PUBLIC_URL + "/my-perfil" }  component={Home}/>
+                <Route exact path =  { process.env.PUBLIC_URL + "/" }  component={Home}/>
+                <Route exact path =  { process.env.PUBLIC_URL + "/resources" } component={Resources}/>
+                <Route exact path =  { process.env.PUBLIC_URL + "/resume" }    component={Resume}/>
                 {/* <Route extact path="/blog"      component={Blog}/> */}
-                <Route extact path="/contact"   component={Contact}/>
+                <Route extact path=  { process.env.PUBLIC_URL + "/contact" }  component={Contact}/>
                 <Route                          component={NotFound}/>
             </Switch>
         </Layout>
