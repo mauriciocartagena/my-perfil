@@ -18,8 +18,8 @@ const Resume = () => (
 
                     <div className="twelve columns">
 
-                        <h3>Instituto tecnologico Infocal</h3>
-                        <p className="info">Tecnico Superior 2020
+                        <h3>Institute technological Infocal</h3>
+                        <p className="info">Technical higher 2020
                         
                         {/* <span>&bull;</span> <em className="date"> 
                             April 2007 
@@ -110,7 +110,7 @@ const Resume = () => (
 
         <div className="nine columns main-col">
 
-            <p>This are some of my skills.
+            <p>I consider that I have the following skills.
             </p>
 
                 <div className="bars">

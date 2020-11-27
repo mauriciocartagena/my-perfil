@@ -17,16 +17,11 @@ const Biography = () =>(
                             wrapper="h2" 
                         />    
 
-                    <p>Developer of web pages, with solid knowledge in technology. <br/>
+                    <p>Developer of software, with solid knowledge in technology. <br/>
                     Committed, self-taught, responsible, proactive and analytical passionate about learning new technologies.
                     <br/>
                     
-                    In my spare time I love to learn the new trends that appear about software development or watch movies accompanied by popcorn or listen to music.
-                    <br/>
-                    These three activities cause my brain to release endorphins and I start to feel even better.
-                    <br/>
-                    
-                    I love music for that reason as I am developing I am listening to music.
+                    In my spare time I love to learn the new trends that appear about software development.
 
                     <br/>
                     </p>
